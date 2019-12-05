@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created with the Wolfram Language : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  ColorClassifier
+ </title>
+ <link href="HTMLFiles/ColorClassifier.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class="Title">
+ Building a Color Classifier in the Wolfram Language.
+</p>
+
+
+
+<p class="Text">
+ <span style='font-size: 20px;'>In this workbook, we will build a simple color classifier to illustrate the power of machine learning. <br />There are 2 color types: Dark and Light. We will train a model by providing it with a set of labeled inputs. <br />Then we will test out the model on some random colors.</span>
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ColorClassifier_1.png" alt="ColorClassifier_1.png" width="1339" height="92" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ First, we create a random sample of dark colors.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ColorClassifier_2.gif" alt="ColorClassifier_2.gif" width="1606" height="472" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ColorClassifier_3.gif" alt="ColorClassifier_3.gif" width="1589" height="130" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ Next, we create a random sample of light colors.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ColorClassifier_4.png" alt="ColorClassifier_4.png" width="1672" height="472" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ColorClassifier_5.gif" alt="ColorClassifier_5.gif" width="1589" height="130" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ Now, we create the training set comprising both sets of light and dark colors.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ColorClassifier_6.gif" alt="ColorClassifier_6.gif" width="954" height="35" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ColorClassifier_7.gif" alt="ColorClassifier_7.gif" width="1844" height="776" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ We build a Naive Bayes Classifier with 2 classes.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ColorClassifier_8.png" alt="ColorClassifier_8.png" width="276" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ColorClassifier_9.gif" alt="ColorClassifier_9.gif" width="314" height="54" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ Now we create some random colors ...
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ColorClassifier_10.png" alt="ColorClassifier_10.png" width="193" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ColorClassifier_11.gif" alt="ColorClassifier_11.gif" width="1105" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ .. and we test the model on these colors.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ColorClassifier_12.png" alt="ColorClassifier_12.png" width="297" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ColorClassifier_13.gif" alt="ColorClassifier_13.gif" width="1823" height="35" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ Here is some Information about the classifier.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ColorClassifier_14.png" alt="ColorClassifier_14.png" width="198" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ColorClassifier_15.png" alt="ColorClassifier_15.png" width="354" height="554" style="vertical-align:middle;" usemap="#map_15" />
+<map name="map_15">
+<area shape="rect" coords="144,317,225,306" title="mean cross entropy for best algorithm at each training size" nohref="" />
+<area shape="rect" coords="151,196,217,186" title="95% confidence interval: [-0.000668, 0.0433]" nohref="" />
+<area shape="rect" coords="116,194,138,186" title="Mean cross entropy" nohref="" />
+<area shape="rect" coords="151,116,207,106" title="Dataset[<|SmoothingParameter -> 0.2|>, TypeSystem`Assoc[TypeSystem`Atom[String], TypeSystem`Atom[Real], 1], <|ID -> 141910201434603|>]" nohref="" />
+</map>
+</p>
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/language/" style="color:#000; text-decoration:none;">
+  <span style="color:#555555">Created with the Wolfram Language</span> 
+ </a>
+</div>
+</body>
+
+</html>
